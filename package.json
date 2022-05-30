@@ -1,0 +1,48 @@
+{
+  "name": "@lparkinson16/cli-practice",
+  "version": "1.0.0",
+  "description": "custom CLI to bootsrap my project",
+  "main": "src/index.js",
+  "bin": {
+    "@lparkinson16/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LParkinson16/cli-practice.git"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LParkinson16/cli-practice/issues"
+  },
+  "homepage": "https://github.com/LParkinson16/cli-practice#readme",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2",
+    "chalk-animation": "^2.0.2",
+    "esm": "^3.2.25",
+    "execa": "^6.1.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^8.2.4",
+    "listr": "^0.14.3",
+    "nanospinner": "^1.1.0",
+    "ncp": "^2.0.0",
+    "path": "^0.12.7",
+    "pkg-install": "^1.0.0",
+    "promisify": "^0.0.3"
+  }
+}
